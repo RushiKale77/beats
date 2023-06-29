@@ -2,289 +2,404 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(17, 16, 16);
-    color: white;
-    font-family:Poppins;
+    font-family: "Poppins";
 }
-body{
+/* removing default styling of li items */
+li {
+    list-style: none;
+  }
+  
+  /* removing the default decoration of a tags */
+  a {
+    text-decoration: none;
+  }
+  
+  /* giving default design to every button */
+  button {
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+  }
+  
+  body {
+    background-color: #f6f8fa;
+  }
+  
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("mainBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+    position: relative;
+  }
+  
+  /* designing the navigation menu */
+  nav {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-header{
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-}
-img[alt="B-logo"]{
-    margin-top: 30px;
-}
-img[alt="mainImage"]{
-    margin-top: 0px;
-    height: 450px;
-}
-nav{
-    display: flex;
-    flex-direction: column;
-}
-nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10%;
-    margin-top: 30px;
-    gap: 30px;
-}
-nav ul li{
-    list-style-type: none;
-}
-nav button{
-    background-color: rgb(32, 30, 30);
-    color: white;
-    border-radius: 7px;
-    width: 130px;
-    height: 40px;
-}
-nav button:hover{
-    background-color: white;
-    color:rgb(32, 30, 30) ;
-}
-img[alt="onEar"]{
-    margin-left: 12vh;
-    margin-top: 8vh;
-    width: fit-content;
-}
-nav h1{
-    font-size: xx-large;
-    margin-top: 10px
-}
-nav h3{
-    font-size: larger;
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-.head-right button{
-    margin-top: 25px;
-    width: 250px;
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    background-color: rgb(32, 30, 30);
-    color: white;
-    border-radius: 10px;
-    margin-left: 120px;
-
-}
-.head-right p,h4{
-    background-color: rgb(32, 30, 30);
-}
-.head-right button:hover{
-    background-color: white;
-    color: rgb(32, 30, 30);
-}
-.head-logo{
-    display: flex;
-    gap: 150px;
-    margin-top: 60px;
-}
-img[alt="specsLogo"]{
-    margin-left: 50vh;
-    margin-top: 50px;
-}
-section-1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-}
-.specs-left-mid{
-    margin-left: 12vh;
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-.specs-left{
-    margin-left: 6vh;
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-img[alt="caseLogo"]{
-    margin-left: 50vh;
-    margin-top: 50px;
-}
-section-2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
-    gap: 80px;
-}
-.case-right p{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    word-spacing: 5px;
-}
-.case-right button{
-    margin-top: 45px;
-    width: 180px;
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    background: rgb(32, 30, 30);
-    color: white;
-    border-radius: 10px;
-
-}
-.case-right button:hover{
-    background: white;
-    color: rgb(32, 30, 30);
-}
-.card-1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
-    gap: 80px;
-    background: rgb(43, 41, 41);
-    height: 350px;
-    width: 850px;
-    border-radius: 20px;
-}
-.card-1 div, .card-1 h3, .card-1 h5, .card-1 img{
-    background-color: transparent;
-}
-.sec-3-left h5, .sec-3-left button{
-   margin-top: 17px;
-}
-.card-1 button{
+    justify-content: space-around;
+    padding: 25px 0;
+  }
+  
+  nav img {
+    height: 45px;
     width: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    border-radius: 10px;
-    background: black;
-    gap: 12px;
-    border: none;
-}
-.card-1 button h4{
-    background-color: transparent;
-}
-img[alt="productLogo"]{
-    margin-left: 50vh;
-    margin-top: 50px;
-}
-.style{
-    display: flex;
-    gap: 90px;
-    margin-top: 70px;
-    justify-content: center;
-}
-.style img{
-height: 100px;
-margin-left: 30px;
-}
-img[alt="shoppingBag"]{
-    height: 20px;
-}
-.info{
+  }
+  
+  nav ul {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: -30px ;
-    background-color: transparent;
-    
-}
-.info p, .info span, .info img[alt="shoppingBag"]{
-    background-color: transparent;
-}
-.card{
-    position: relative;
-    width: 150px;
-    height: 150px;
-    background: #181a1b;
-    border-radius: 8px;
-    margin-top: 70px;
-}
-img[alt="black"]{
-    position: relative;
-    top: -40px;
-    background-color: transparent;
-}
-img[alt="nightBlack"]{
-    position: relative;
-    top: -40px;
-    background-color: transparent;
-}
-img[alt="twilightGray"]{
-    position: relative;
-    top: -40px;
-    background-color: transparent;
-}
-img[alt="redBlack"]{
-    position: relative;
-    top: -40px;
-    background-color: transparent;
-}
-img[alt="blue"]{
-    position: relative;
-    top: -40px;
-    background-color: transparent;
-}
-footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    gap: 80px;
-    margin-bottom: 50px;
-}
-.f-mid h6{
-    margin-top: 15px;
-}
-.f-left{
-    display: flex;
-    gap: 80px;
-}
-img[alt="beatsLogo"]{
-    height: 35px;
-}
-.f-right button{
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    margin-right: 50px;
+    font-size: 18px;
+  }
+  
+  hr {
+    margin: 0 100px;
+  }
+  
+  /* designing the div inside the header */
+  header div {
+    color: #ffffff;
+    margin-left: 150px;
+    margin-top: 85px;
+  }
+  
+  header div h1 {
+    font-size: 72px;
+    margin-bottom: 30px;
+  }
+  
+  header div p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    width: 410px;
+  }
+  
+  /* designing the multiple logos box */
+  .my-logos {
+    background-color: #fff;
+    margin: 0 35px;
+    height: 190px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: #27292a;
-    gap: 80px;
-    height: 50px;
-    width:280px; 
-    border: none;
-    border-radius: 8px;
-}
-.subs{
+    justify-content: space-evenly;
+    border-radius: 30px;
+    position: relative;
+    bottom: 100px;
+  }
+  
+  .my-logos img {
+    width: 156px;
+    height: 38px;
+  }
+  
+  /* designing the wrapper section of the cards */
+  .cards-wrapper-section h1 {
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0.01em;
+  }
+  
+  .cards-wrapper {
     display: flex;
-    background: black;
-    height: 35px;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 140pxpx;
     gap: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 5px;
-}
-.subs img{
-    height: 20px;
-}
-.f-right button p{
-    background-color: transparent;
-}
-.fimg{
+    margin-top: 50px;
+    position: relative;
+  }
+  
+  /* designing the card image */
+  .card {
+    flex-basis: 30%;
     display: flex;
-    margin-top: 35px;
-    gap: 15px;
-}
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  /* giving different margin top value to position cards */
+  .cards-wrapper div:nth-child(2) {
+    margin-top: 50px;
+  }
+  .cards-wrapper div:nth-child(3) {
+    margin-top: 100px;
+  }
+  .cards-wrapper div:nth-child(4) {
+    margin-top: 160px;
+  }
+  .cards-wrapper div:nth-child(5) {
+    margin-top: 100px;
+  }
+  .cards-wrapper div:nth-child(6) {
+    margin-top: 40px;
+  }
+  .cards-wrapper div:nth-child(7) {
+    margin-top: 40px;
+  }
+  .cards-wrapper div:nth-child(8) {
+    margin-top: 100px;
+  }
+  .cards-wrapper div:nth-child(9) {
+    margin-top: 160px;
+  }
+  
+  .card img {
+    width: 366px;
+    height: 400px;
+    border-radius: 20px;
+  }
+  
+  /* designing the card box of card */
+  .card-box {
+    width: 326px;
+    height: 121px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 120px rgba(58, 86, 78, 0.2);
+    position: absolute;
+    bottom: -60px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-box button {
+    font-weight: 800;
+    font-size: 15px;
+    width: 114px;
+    height: 52px;
+  }
+  
+  .card-box div h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-box div p {
+    font-weight: 800;
+    font-size: 20px;
+    color: #6663e8;
+    text-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* designing both the features section of the website */
+  .features-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+  }
+  
+  .features-section div {
+    width: 50%;
+  }
+  
+  .first-feature-section div:first-child img:first-child {
+    position: absolute;
+    left: -80px;
+    z-index: -1;
+    width: 726px;
+    height: 456px;
+  }
+  
+  .features-section div:first-child img:last-child {
+    position: relative;
+    width: 405px;
+    height: 405px;
+    border-radius: 51px;
+    bottom: 55px;
+    left: 110px;
+  }
+  
+  /* designing the second div of feature box */
+  .features-section h1 {
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+  }
+  
+  .features-section p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #585c65;
+    margin-bottom: 40px;
+    max-width: 80%;
+  }
+  
+  .features-section button {
+    font-weight: 700;
+  }
+  
+  /* designing the second feature section */
+  .second-feature-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .second-feature-section div {
+    width: 50%;
+  }
+  
+  .second-feature-section div:last-child{
+      position: relative;
+  }
+  
+  .second-feature-section div:last-child img:first-child {
+    position: absolute;
+    right: 0;
+    width: 726px;
+    height: 456px;
+    bottom: -220px;
+  }
+  
+  .second-feature-section div:last-child img:last-child {
+    position: absolute;
+    width: 405px;
+    height: 405px;
+    border-radius: 51px;
+    right: 135px;
+    bottom: -110px;
+  }
+  
+  .second-feature-section div:first-child {
+    padding: 0 50px;
+  }
+  
+  .second-feature-section div:first-child h1 {
+    width: 90%;
+  }
+  
+  /* designing the newsletter section */
+  .newsletter {
+    margin: 100px 70px;
+    background: #6663e9;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 70px 0;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .newsletter h1 {
+    font-weight: 800;
+    font-size: 60px;
+  }
+  
+  .newsletter p {
+    font-weight: 400;
+    font-size: 18px;
+    width: 55%;
+  }
+  
+  /* designing the form */
+  .newsletter form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .newsletter form div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #5654d1;
+    border-radius: 40px;
+    width: 468px;
+    height: 61px;
+    padding: 0 20px;
+  }
+  
+  .newsletter form input {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .newsletter form button {
+    background: #ffffff;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    width: 174px;
+    height: 61px;
+    color: #6663e9;
+  }
+  
+  /* designing the footer area */
+  footer {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 100px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+  
+  footer div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  footer div:first-child img {
+    width: 150px;
+  }
+  
+  footer div:first-child div img {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+  }
+  
+  footer div:first-child p {
+    width: 323px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  /* designing the footer links */
+  .footer-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 120px;
+  }
+  
+  .footer-links-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-links-content ul li a {
+    color: black;
+  }
+  
+  .footer-links-content ul li:first-child {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .footer-links-content ul li{
+      margin-bottom: 25px;
+  }
