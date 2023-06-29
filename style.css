@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    font-family:Poppins;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+img[alt="B-logo"]{
+    margin-top: 30px;
+}
+img[alt="mainImage"]{
+    margin-top: 0px;
+    height: 450px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+    margin-top: 30px;
+    gap: 30px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav button{
+    background-color: rgb(32, 30, 30);
+    color: white;
+    border-radius: 7px;
+    width: 130px;
+    height: 40px;
+}
+nav button:hover{
+    background-color: white;
+    color:rgb(32, 30, 30) ;
+}
+img[alt="onEar"]{
+    margin-left: 12vh;
+    margin-top: 8vh;
+    width: fit-content;
+}
+nav h1{
+    font-size: xx-large;
+    margin-top: 10px
+}
+nav h3{
+    font-size: larger;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.head-right button{
+    margin-top: 25px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(32, 30, 30);
+    color: white;
+    border-radius: 10px;
+    margin-left: 120px;
+
+}
+.head-right p,h4{
+    background-color: rgb(32, 30, 30);
+}
+.head-right button:hover{
+    background-color: white;
+    color: rgb(32, 30, 30);
+}
+.head-logo{
+    display: flex;
+    gap: 150px;
+    margin-top: 60px;
+}
+img[alt="specsLogo"]{
+    margin-left: 50vh;
+    margin-top: 50px;
+}
+section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.specs-left-mid{
+    margin-left: 12vh;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.specs-left{
+    margin-left: 6vh;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+img[alt="caseLogo"]{
+    margin-left: 50vh;
+    margin-top: 50px;
+}
+section-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 80px;
+}
+.case-right p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    word-spacing: 5px;
+}
+.case-right button{
+    margin-top: 45px;
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: rgb(32, 30, 30);
+    color: white;
+    border-radius: 10px;
+
+}
+.case-right button:hover{
+    background: white;
+    color: rgb(32, 30, 30);
+}
+.card-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 80px;
+    background: rgb(43, 41, 41);
+    height: 350px;
+    width: 850px;
+    border-radius: 20px;
+}
+.card-1 div, .card-1 h3, .card-1 h5, .card-1 img{
+    background-color: transparent;
+}
+.sec-3-left h5, .sec-3-left button{
+   margin-top: 17px;
+}
+.card-1 button{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    background: black;
+    gap: 12px;
+    border: none;
+}
+.card-1 button h4{
+    background-color: transparent;
+}
+img[alt="productLogo"]{
+    margin-left: 50vh;
+    margin-top: 50px;
+}
+.style{
+    display: flex;
+    gap: 90px;
+    margin-top: 70px;
+    justify-content: center;
+}
+.style img{
+height: 100px;
+margin-left: 30px;
+}
+img[alt="shoppingBag"]{
+    height: 20px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px ;
+    background-color: transparent;
+    
+}
+.info p, .info span, .info img[alt="shoppingBag"]{
+    background-color: transparent;
+}
+.card{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: #181a1b;
+    border-radius: 8px;
+    margin-top: 70px;
+}
+img[alt="black"]{
+    position: relative;
+    top: -40px;
+    background-color: transparent;
+}
+img[alt="nightBlack"]{
+    position: relative;
+    top: -40px;
+    background-color: transparent;
+}
+img[alt="twilightGray"]{
+    position: relative;
+    top: -40px;
+    background-color: transparent;
+}
+img[alt="redBlack"]{
+    position: relative;
+    top: -40px;
+    background-color: transparent;
+}
+img[alt="blue"]{
+    position: relative;
+    top: -40px;
+    background-color: transparent;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+.f-mid h6{
+    margin-top: 15px;
+}
+.f-left{
+    display: flex;
+    gap: 80px;
+}
+img[alt="beatsLogo"]{
+    height: 35px;
+}
+.f-right button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #27292a;
+    gap: 80px;
+    height: 50px;
+    width:280px; 
+    border: none;
+    border-radius: 8px;
+}
+.subs{
+    display: flex;
+    background: black;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    width: 140pxpx;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.subs img{
+    height: 20px;
+}
+.f-right button p{
+    background-color: transparent;
+}
+.fimg{
+    display: flex;
+    margin-top: 35px;
+    gap: 15px;
+}
